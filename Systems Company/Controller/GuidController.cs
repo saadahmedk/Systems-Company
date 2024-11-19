@@ -23,6 +23,6 @@ namespace Systems_Company.Controller
             var guid = _guidGenerator.GenerateGuid();
             return Ok(new { Guid = guid });
         }
-  
+ 
     }
 }
